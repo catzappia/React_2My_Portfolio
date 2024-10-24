@@ -1,0 +1,94 @@
+ /* Reset the margin and padding */
+ .main {
+    margin: 0;
+    padding: 0;
+    background-image: url('../../assets/portfolio.jpg'); /* Background image */
+    background-size: cover; /* Ensure background image covers the entire screen */
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    font-family: baloo;
+  }
+
+/* General styles for the contact section */
+.contact-section {
+    padding: 60px;
+    background-color: #f9f9f91d;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Title for the contact form */
+  .contact-title {
+    font-size: 40px;
+    margin-bottom: 24px;
+    color: #333;
+  }
+  
+  /* Form container */
+  .contact-form {
+    background-color: #fbfbf9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #b2a09e;
+    max-width: 500px;
+    width: 100%;
+    text-align: left;
+  }
+  
+  /* Form group - label and input field */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Label for the inputs */
+  .form-group label {
+    font-size: 16px;
+    color: #333;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  /* Input and textarea styles */
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: baloo;
+  }
+  
+  /* Input field hover and focus effects */
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    outline: none;
+    border-color: #b2a09e;
+    box-shadow: 0 0 5px #b2a09e;
+  }
+  
+  /* Submit button */
+  .submit-button {
+    padding: 12px 24px;
+    background-color: #d2ccc9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: baloo;
+  }
+  
+  .submit-button:hover {
+    background-color: #b2a09e;
+  }
+  

@@ -1,0 +1,114 @@
+ /* Reset the margin and padding */
+ .main {
+    margin: 0;
+    padding: 0;
+    background-image: url('../../assets/portfolio.jpg'); /* Background image */
+    background-size: cover; /* Ensure background image covers the entire screen */
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+  }
+
+ /* General styles for the projects section */
+.projects-section {
+    margin: auto;
+    padding: 50px;
+    background-color: #fbfbf98d;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 15%;
+    width: 80%;
+    margin-bottom: 20%;
+  }
+  
+  /* Title for the project section */
+  .projects-title {
+    margin: auto;
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  /* Container for all project cards */
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping for responsive design */
+    justify-content: center; /* Center cards horizontally */
+    gap: 20px; /* Space between cards */
+  }
+
+  @media (max-width: 768px) {
+    .projects-container {
+      align-content: center;
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .projects-container {
+      flex-direction: column; /* Stack cards vertically on smaller screens */
+      gap: 40px;
+    }
+  }
+  
+  /* Styles for each individual project card */
+  .project-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add some depth */
+    max-width: 300px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s; /* Animation for hover effect */
+    box-shadow: 0 4px 8px #b2a09e;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px); /* Move card up on hover */
+  }
+  
+  .project-image {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .project-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .project-description {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #777;
+  }
+  
+  .project-repo {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    transition: color 0.2s;
+  }
+  .project-link {
+    text-decoration: none;
+    font-weight: bold;
+    padding-right: 20px;
+    color: #000;
+    transition: color 0.2s;
+  }
+  
+  .project-link:hover, .project-repo:hover {
+    color: #b2a09e; /* Change color on hover */
+  }
+
+.about {
+    font-size: 20px;
+    color: #000000;
+    padding: 20px;
+  }

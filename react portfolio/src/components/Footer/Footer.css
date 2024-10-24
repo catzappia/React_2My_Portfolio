@@ -1,0 +1,18 @@
+footer {
+    background-color: #e4d0bb;
+    text-align: center;
+    color: #fbfbf9;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 0;
+    font-family: baloo;
+}
+
+p {
+    font-size: 20px;
+    color: #fbfbf9;
+    margin-top: 10px;
+}

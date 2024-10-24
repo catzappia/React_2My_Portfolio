@@ -1,0 +1,72 @@
+
+
+  /* Reset the margin and padding */
+.main {
+  margin: 0;
+  padding: 0;
+  background-image: url('../../assets/portfolio.jpg'); /* Background image */
+  background-size: cover; /* Ensure background image covers the entire screen */
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  font-family: baloo;
+}
+
+
+
+/* Main container for the "About Me" content */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.603); /* Slight transparency for readability */
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #b2a09e;
+  max-width: 800px;
+  width: 100%;
+  margin-top: 20%; /* Adjusts spacing between header and content */
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    width: 80%;
+  }
+}
+
+/* Style for the title */
+.about-title {
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Style for the paragraph */
+.about-paragraph p {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+/* Style for the image */
+.about-image {
+  max-width: 150px;
+  
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Center main content within the viewport below the header */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers content vertically */
+  align-items: center; /* Centers content horizontally */
+  flex-grow: 1; /* Ensures the main content fills the remaining space */
+}

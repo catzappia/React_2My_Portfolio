@@ -1,0 +1,86 @@
+ /* Reset the margin and padding */
+ .main {
+    margin: 0;
+    padding: 0;
+    background-image: url('../../assets/portfolio.jpg'); /* Background image */
+    background-size: cover; /* Ensure background image covers the entire screen */
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    font-family: baloo;
+  }
+
+/* General styles for the resume section */
+.resume-section {
+    background-color: #fbfbf91d;
+    padding: 20px;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+  
+  /* Title for the resume section */
+  .resume-title {
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  /* Container for each section (skills, experience, education) */
+  .resume-container {
+    margin-bottom: 20px;
+    text-align: left;
+    max-width: 800px;
+    width: 100%;
+    background-color: #fbfbf9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #b2a09e;
+  }
+  
+  /* Subtitle for each section (skills, experience, education) */
+  .resume-subtitle {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #a19f9f;
+  }
+  
+  /* Unordered list for the skills, experience, education */
+  .resume-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* LinkedIn section */
+  .linkedin-section p {
+    margin-top: 20px;
+    font-family: baloo;
+    font-size: 16px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  /* LinkedIn link styling */
+  .linkedin-link, .resume-download {
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease;
+  }
+  
+  .linkedin-link:hover, .resume-download:hover {
+    color: #b2a09e;
+  }
+
+  
