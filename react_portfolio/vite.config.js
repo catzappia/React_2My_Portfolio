@@ -5,6 +5,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: './',
   plugins: [react()],
+  build: {
+    rollupOptions: {
+      external: ['react-router-dom']
+    }
+  },
   server: {
     port: 3000,
     open: true
