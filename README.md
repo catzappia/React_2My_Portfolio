@@ -7,10 +7,13 @@ a portfolio created with React.
 - I am only a little sad that the font I picked didn't carry over to deployment. 
 
 ## Table of Contents
-
+- [Usage](#usage)
 - [License](#license)
 - [Authors](#authors)
 - [Features](#features)
+
+## Usage
+![screenshot](screenshot.png)
 
 ## License
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
