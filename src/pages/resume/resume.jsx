@@ -38,7 +38,7 @@ const Resume = () => {
       {/* LinkedIn Link */}
       <div className="resume-container">
       <div className="linkedin-section">
-        <p>Find out more on my <a href="https://linkedin.com/in/catherine-zappia" target="_blank" rel="noopener noreferrer" className="linkedin-link">LinkedIn</a>.</p>
+        <p>Find out more on my <a href="CatherineZappia.pdf" target="_blank" rel="noopener noreferrer" className="linkedin-link">LinkedIn</a>.</p>
         <p>Or you can <a href="https://drive.google.com/file/d/1WgJ7XXi_v3iEjJrA66WlwaDlE8y29WAP/view?usp=sharing" download className="resume-download">download my resume here</a>.</p>
       </div>
       </div>
